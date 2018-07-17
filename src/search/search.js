@@ -198,7 +198,7 @@ class Search extends React.Component {
                                 }
                             >
                                 <MenuItem value="">
-                                    <em>Ваш класс</em>
+                                    <em>Пассажиры и класс</em>
                                 </MenuItem>
                                 {this.ticketClasses.map(option => (
                                     <MenuItem key={option.value} value={option.value}>
