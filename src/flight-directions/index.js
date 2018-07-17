@@ -1,3 +1,3 @@
-import FlightDirections from './flight-directions';
+import FlightDirections from "./FlightDirections"
 
 export default FlightDirections;

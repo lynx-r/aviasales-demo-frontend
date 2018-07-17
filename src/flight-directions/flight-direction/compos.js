@@ -2,7 +2,6 @@ import React from "react";
 import styled from 'styled-components';
 
 const StyledLogo = styled.div`
-    margin-top: 56px;
 `;
 
 export class Compas extends React.Component {

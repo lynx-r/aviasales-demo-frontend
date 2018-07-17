@@ -7,8 +7,11 @@ import {DirectionIcon} from "./direction-icon";
 import Grid from "@material-ui/core/Grid/Grid";
 
 const styles = theme => ({
-    flightDirections: {
-        marginTop: '40px'
+    flightDirection: {
+        marginTop: '80px'
+    },
+    flightBlock: {
+        paddingTop: '56px'
     }
 });
 
@@ -27,12 +30,12 @@ const StyledDirections = styled.div`
     text-align: center;
 `;
 
-class FlightDirections extends React.Component {
+class FlightDirection extends React.Component {
 
     render() {
         const {classes} = this.props;
         return (
-            <div>
+            <div className={classes.flightBlock}>
                 <Compas/>
                 <StyledDirections>
                     Популярные направления перелетов из города
@@ -47,7 +50,7 @@ class FlightDirections extends React.Component {
                         </svg>
                     </StyledCity>
                 </StyledDirections>
-                <Grid container className={classes.flightDirections} justify={"center"} spacing={40}>
+                <Grid container className={classes.flightDirection} justify={"center"} spacing={40}>
                     <DirectionIcon label="КУДА УГОДНО"
                                    svg={
                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
@@ -236,8 +239,8 @@ class FlightDirections extends React.Component {
     }
 }
 
-FlightDirections.propTypes = {
+FlightDirection.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(FlightDirections);
+export default withStyles(styles)(FlightDirection);
