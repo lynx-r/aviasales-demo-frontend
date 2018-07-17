@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {CityCover, CityName, Container, CountryName, Date, FindPriceFrom} from './City.styled';
+import {CityCover, CityLocation, CityName, Container, CountryName, Date, FindPriceFrom, SailInfo} from './City.styled';
 import Grid from "@material-ui/core/es/Grid/Grid";
 
 export default class City extends Component {
@@ -12,7 +12,7 @@ export default class City extends Component {
                         <CityCover src={city.cover} alt={city.cityName} className={"img-responsive"}/>
                     </Grid>
                     <Grid container direction={"row"} justify={"space-between"}>
-                        <div>
+                        <CityLocation>
                             <Grid container direction={"row"} justify={"center"}>
                                 <div>
                                     <img src={city.countryFlag} alt=""/>
@@ -28,8 +28,8 @@ export default class City extends Component {
                                     </Grid>
                                 </div>
                             </Grid>
-                        </div>
-                        <div>
+                        </CityLocation>
+                        <SailInfo>
                             <Grid container direction={"column"} justify={"center"} className="full-height">
                                 <FindPriceFrom>
                                     {city.findPriceFrom}
@@ -38,7 +38,7 @@ export default class City extends Component {
                                     {city.date}
                                 </Date>
                             </Grid>
-                        </div>
+                        </SailInfo>
                     </Grid>
                 </Grid>
             </Container>

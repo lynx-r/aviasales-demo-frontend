@@ -7,12 +7,6 @@ border-radius: 8px;
 margin: 6px;
 `;
 
-export const CityLocation = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: center;
-`;
-
 export const CityCover = styled.img`
  border-top-left-radius: 8px;
  border-top-right-radius: 8px;
@@ -26,6 +20,10 @@ line-height: 32px;
 font-size: 22px;
 
 color: #5B5B5C;
+`;
+
+export const CityLocation = styled.div`
+margin-left: 8px;
 `;
 
 export const CountryName = styled.div`
@@ -55,4 +53,8 @@ font-size: 12px;
 text-align: right;
 
 color: #A0B0B9;
+`;
+
+export const SailInfo = styled.div`
+margin-right: 12px;
 `;
