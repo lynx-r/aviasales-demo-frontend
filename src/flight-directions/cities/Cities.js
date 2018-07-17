@@ -67,7 +67,7 @@ export default class Cities extends Component {
         return (
             <Container>
                 <Grid item xs={9}>
-                    <GridList cols={2} cellHeight={"auto"} spacing={40}>
+                    <GridList cols={2} cellHeight={"auto"} spacing={20}>
                         {this.cities.map(city => (
                             <GridListTile key={city.id}>
                                 <City city={city}/>
