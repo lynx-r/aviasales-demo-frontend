@@ -8,10 +8,9 @@ import Grid from "@material-ui/core/Grid/Grid";
 
 const styles = theme => ({
     flightDirection: {
-        marginTop: '80px'
+        marginTop: '60px'
     },
     flightBlock: {
-        paddingTop: '56px'
     }
 });
 
@@ -50,7 +49,7 @@ class FlightDirection extends React.Component {
                         </svg>
                     </StyledCity>
                 </StyledDirections>
-                <Grid container className={classes.flightDirection} justify={"center"} spacing={40}>
+                <Grid container className={classes.flightDirection} justify={"center"}>
                     <DirectionIcon label="КУДА УГОДНО"
                                    svg={
                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"

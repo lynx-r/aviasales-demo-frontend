@@ -4,6 +4,7 @@ import Grid from "@material-ui/core/Grid/Grid";
 
 const StyledIcon = styled.div`
     width: 89px;
+    height: 60px;
 `;
 
 const DirectionLabel = styled.div`

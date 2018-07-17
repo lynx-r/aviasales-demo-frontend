@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 background: #FFFFFF;
-box-shadow: 0px 2px 12px rgba(0, 75, 93, 0.12);
+box-shadow: 0 2px 12px rgba(0, 75, 93, 0.12);
 border-radius: 8px;
 margin: 6px;
+width: 509px;
 `;
 
 export const CityCover = styled.img`

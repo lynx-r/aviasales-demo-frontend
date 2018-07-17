@@ -5,6 +5,7 @@ import Grid from "@material-ui/core/Grid";
 import Search from "./search";
 import FlightDirections from "./flight-directions/FlightDirections";
 import BestPrices from "./best-prices/BestPrices";
+import Companies from "./companies/Companies";
 
 const styles = theme => ({
     root: {
@@ -22,12 +23,11 @@ function CenteredGrid(props) {
 
     return (
         <div className={classes.root}>
-            <Grid container spacing={24}>
-                <Grid item xs={12}>
-                    <Search/>
-                    <FlightDirections/>
-                    <BestPrices/>
-                </Grid>
+            <Grid container>
+                <Search/>
+                <FlightDirections/>
+                <BestPrices/>
+                <Companies/>
             </Grid>
         </div>
     );
