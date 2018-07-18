@@ -7,6 +7,7 @@ import FlightDirections from "./flight-directions/FlightDirections";
 import BestPrices from "./best-prices/BestPrices";
 import Companies from "./companies/Companies";
 import Discount from "./discount/Discount";
+import PreFooterInfo from "./pre-footer-info/PreFooterInfo";
 
 const styles = theme => ({
     root: {
@@ -30,6 +31,7 @@ function CenteredGrid(props) {
                 <BestPrices/>
                 <Companies/>
                 <Discount/>
+                <PreFooterInfo/>
             </Grid>
         </div>
     );

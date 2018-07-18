@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SocialIcon from "../SocialIcon";
+import SocialIcon from "../social-icon/SocialIcon";
 
 export default class VkIcon extends Component {
     render() {

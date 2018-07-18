@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {Container} from './SocialIcon.styled';
+import {Container} from './Icon.styled';
 
-export default class SocialIcon extends Component {
+export default class Icon extends Component {
     render() {
         return (
-            <Container>
+            <Container filled={this.props.filled}>
                 <img src={this.props.src} alt={this.props.alt}/>
             </Container>
         )
