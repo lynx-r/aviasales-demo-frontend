@@ -6,6 +6,7 @@ import Search from "./search";
 import FlightDirections from "./flight-directions/FlightDirections";
 import BestPrices from "./best-prices/BestPrices";
 import Companies from "./companies/Companies";
+import Discount from "./discount/Discount";
 
 const styles = theme => ({
     root: {
@@ -28,6 +29,7 @@ function CenteredGrid(props) {
                 <FlightDirections/>
                 <BestPrices/>
                 <Companies/>
+                <Discount/>
             </Grid>
         </div>
     );

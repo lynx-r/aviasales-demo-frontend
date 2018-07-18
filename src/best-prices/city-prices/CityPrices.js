@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {CityLocation, CityName, CityPrice, Container, CountryName, FromCity} from './CityPrices.styled';
 import Grid from "@material-ui/core/es/Grid/Grid";
+import "./CityPrices.css"
 
 export default class CityPrices extends Component {
     render() {
         const city = this.props.city;
         return (
-            <Container className={this.props.rightLine ? 'rightLine' : ''}>
+            <Container className={this.props.rightLine ? 'rightLine' : 'endLine'}>
                 <CityLocation>
                     <Grid container direction={"row"}>
                         <div>

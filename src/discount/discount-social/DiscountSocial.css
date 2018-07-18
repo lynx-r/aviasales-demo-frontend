@@ -1,0 +1,21 @@
+.bootstrapInput {
+    background-color: white;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 10px 12px;
+    width: calc(100% - 226px);
+    border-radius: 4px 0 0 4px;
+}
+
+.bootstrapInput:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.orangeButton {
+    width: 200px;
+    background-color: #FF8E41 !important;
+    padding: 18px 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}

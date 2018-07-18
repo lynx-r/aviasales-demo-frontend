@@ -112,12 +112,13 @@ export default class BestPrices extends Component {
     render() {
         return (
             <Container>
-                <Grid container direction={"column"} justify={"space-between"} alignContent={"space-between"}
-                      className={"full-height"}>
+                <Grid item xs={9} container direction={"column"} justify={"space-between"}>
                     <BestPricesTitle/>
-                    <Grid container justify={"center"}>
+                    <Grid container justify={"space-between"}>
                         {this.cities.map((city, index) => (
-                            <CityPrices city={city} rightLine={index !== this.cities.length - 1} key={city.id}/>
+                            <Grid item xs={4} key={city.id}>
+                                <CityPrices city={city} rightLine={index !== this.cities.length - 1}/>
+                            </Grid>
                         ))}
                     </Grid>
                     <BestPricesFooter/>

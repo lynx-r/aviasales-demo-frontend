@@ -6,6 +6,7 @@ padding-right: 32px;
 `;
 
 export const CityLocation = styled.div`
+margin-top: 24px;
 `;
 
 export const CityName = styled.div`
@@ -28,7 +29,7 @@ text-align: start;
 `;
 
 export const FromCity = styled.div`
-width: 218px;
+//width: 218px;
 text-align: start;
 font-size: 16px;
 line-height: 20px;
