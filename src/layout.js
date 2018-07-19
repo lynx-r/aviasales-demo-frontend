@@ -9,6 +9,7 @@ import Companies from "./companies/Companies";
 import Discount from "./discount/Discount";
 import PreFooterInfo from "./pre-footer-info/PreFooterInfo";
 import MobileApp from "./mobile-app/MobileApp";
+import PreFooterAll from "./pre-footer-all/PreFooterAll";
 
 const styles = theme => ({
     root: {
@@ -34,6 +35,7 @@ function CenteredGrid(props) {
                 <Discount/>
                 <PreFooterInfo/>
                 <MobileApp/>
+                <PreFooterAll/>
             </Grid>
         </div>
     );
