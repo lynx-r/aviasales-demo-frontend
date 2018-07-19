@@ -16,7 +16,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "homepage": "https://lynx-r.github.io/aviasales-demo-frontend/",
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }

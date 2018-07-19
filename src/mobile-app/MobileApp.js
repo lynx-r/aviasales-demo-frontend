@@ -1,14 +1,5 @@
 import React, {Component} from 'react';
-import {
-    Brands,
-    Container,
-    MobilePhone,
-    MobileTitle,
-    RaitingDescription,
-    Rating,
-    RatingDescription,
-    RatingStars
-} from './MobileApp.styled';
+import {Brands, Container, MobilePhone, MobileTitle, Rating, RatingDescription, RatingStars} from './MobileApp.styled';
 import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
 import Grid from "@material-ui/core/Grid/Grid";
 import StarIcon from "../components/icon/star-icon/StarIcon";
