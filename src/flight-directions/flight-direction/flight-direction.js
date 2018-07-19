@@ -50,6 +50,7 @@ class FlightDirection extends React.Component {
                     </StyledCity>
                 </StyledDirections>
                 <Grid container className={classes.flightDirection} justify={"center"}>
+                    {/*TODO ус отклеился*/}
                     <DirectionIcon label="КУДА УГОДНО"
                                    svg={
                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none"
