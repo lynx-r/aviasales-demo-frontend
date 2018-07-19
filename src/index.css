@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* sitepoint: Bootstrap uses a class of .img-responsive to make any image responsive: */
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.full-height {
+    height: 100%;
+    min-height: 100%;
+}
+
+.rightLine {
+    border-right: 1px solid #AFBEC6;
+}
+
+.marginLeft_12 {
+    margin-left: 12px;
+}
