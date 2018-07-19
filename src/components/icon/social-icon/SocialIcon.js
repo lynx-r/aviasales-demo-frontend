@@ -4,7 +4,7 @@ import Icon from "../Icon";
 export default class SocialIcon extends Component {
     render() {
         return (
-            <Icon src={this.props.src} alt={this.props.alt} filled={true} width="36" height="36"/>
+            <Icon {...this.props} filled={true} width="36" height="36"/>
         )
     }
 }
