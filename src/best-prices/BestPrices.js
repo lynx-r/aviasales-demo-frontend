@@ -10,7 +10,7 @@ export default class BestPrices extends Component {
     cities = [
         {
             id: 1,
-            countryFlag: '/img/ru.png',
+            countryFlag: 'img/ru.png',
             countryName: 'Крым',
             cityName: 'Симферополь',
             travelFrom: [
@@ -43,7 +43,7 @@ export default class BestPrices extends Component {
         },
         {
             id: 2,
-            countryFlag: '/img/am.png',
+            countryFlag: 'img/am.png',
             countryName: 'Армения',
             cityName: 'Ереван',
             travelFrom: [
@@ -76,7 +76,7 @@ export default class BestPrices extends Component {
         },
         {
             id: 3,
-            countryFlag: '/img/md.png',
+            countryFlag: 'img/md.png',
             countryName: 'Кишинёв',
             cityName: 'Молдавия',
             travelFrom: [

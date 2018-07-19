@@ -17,7 +17,7 @@ position: relative;
 top: -27px;
 width: 234px;
 height: 308px;
-background: url("/img/mobile-phone.png") no-repeat;
+background: url("img/mobile-phone.png") no-repeat;
 `;
 
 export const MobileTitle = styled.h2`

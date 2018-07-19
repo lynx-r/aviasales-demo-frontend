@@ -4,7 +4,7 @@ import SocialIcon from "../social-icon/SocialIcon";
 export default class RssIcon extends Component {
     render() {
         return (
-            <SocialIcon src="/img/social/rss.png" alt="rss"/>
+            <SocialIcon src="img/social/rss.png" alt="rss"/>
         )
     }
 }
