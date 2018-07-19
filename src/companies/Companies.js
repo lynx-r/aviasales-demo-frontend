@@ -10,7 +10,7 @@ import {
     StubCompaniesRow,
     Title
 } from './Companies.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 
 export default class Companies extends Component {
     render() {

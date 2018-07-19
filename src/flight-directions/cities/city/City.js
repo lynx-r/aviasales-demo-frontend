@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {CityCover, CityLocation, CityName, Container, CountryName, Date, FindPriceFrom, SailInfo} from './City.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 
 export default class City extends Component {
     render() {

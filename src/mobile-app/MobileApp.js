@@ -10,7 +10,7 @@ import {
     RatingStars
 } from './MobileApp.styled';
 import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 import StarIcon from "../components/icon/star-icon/StarIcon";
 import AppleBrand from "../components/brand/apple-brand/AppleBrand";
 import AndroidBrand from "../components/brand/android-brand/AndroidBrand";

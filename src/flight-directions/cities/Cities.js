@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import {Container} from './Cities.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 import City from "./city/City";
-import GridList from "@material-ui/core/es/GridList/GridList";
-import GridListTile from "@material-ui/core/es/GridListTile/GridListTile";
+import GridList from "@material-ui/core/GridList/GridList";
+import GridListTile from "@material-ui/core/GridListTile/GridListTile";
 
 export default class Cities extends Component {
     cities = [

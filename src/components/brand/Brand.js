@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {BrandIcon, BrandName, Container} from './Brand.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 
 export default class Brand extends Component {
     render() {

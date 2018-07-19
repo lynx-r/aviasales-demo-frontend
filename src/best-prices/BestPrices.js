@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Container} from './BestPrices.styled';
 import BestPricesTitle from "./best-prices-title/BestPricesTitle";
 import CityPrices from "./city-prices/CityPrices";
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 import BestPricesFooter from "./best-prices-footer/BestPricesFooter";
 
 export default class BestPrices extends Component {

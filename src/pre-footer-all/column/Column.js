@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {AllItems, Container, Item, Title} from './Column.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 
 export default class Column extends Component {
 

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Body, Container, Description, DetailButtons, FireTime, Price, Title, TitleImg} from './Proposal.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
-import Button from "@material-ui/core/es/Button/Button";
+import Grid from "@material-ui/core/Grid/Grid";
+import Button from "@material-ui/core/Button/Button";
 
 export default class Proposal extends Component {
     render() {
