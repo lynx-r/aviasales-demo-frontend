@@ -7,6 +7,7 @@ const StyledLogo = styled.div`
     left: 6%;
 `;
 
+
 export class Logo extends React.Component {
     render() {
         return (
