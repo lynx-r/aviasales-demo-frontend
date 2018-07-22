@@ -12,6 +12,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Button from "@material-ui/core/Button/Button";
 import Select from "@material-ui/core/Select/Select";
 import orange from "@material-ui/core/colors/orange";
+import {withRouter} from "react-router-dom";
 
 const styles = theme => ({
     container: {
@@ -111,6 +112,15 @@ class Search extends React.Component {
         {value: 1, label: '1 пассажир, эконом'},
         {value: 2, label: '2 пассажира, эконом'},
     ];
+
+    constructor(props) {
+        super(props);
+        this.goSearch = this.goSearch.bind(this);
+    }
+
+    goSearch() {
+        this.props.history.push('/search');
+    }
 
     handleChange = prop => event => {
         this.setState({[prop]: event.target.value});
@@ -212,6 +222,7 @@ class Search extends React.Component {
                         </Grid>
                         <Button
                             className={classes.button}
+                            onClick={this.goSearch}
                         >
                             Найти билеты
                             <svg className={classes.airplane} width="26" height="21" viewBox="0 0 26 21" fill="none"
@@ -232,4 +243,4 @@ Search.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Search);
+export default withStyles(styles)(withRouter(Search));
