@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container, Footer, SpecialDiscountBody, SpecialDiscountTitle} from './DiscountSpecial.styled';
 import Grid from "@material-ui/core/Grid/Grid";
-import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
+import ContainerCentrified from "../../../components/container-centrified/ContainerCentrified";
 import Proposal from "./proposal/Proposal";
 import {AllProposals, Refinement} from "./proposal/Proposal.styled";
 

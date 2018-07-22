@@ -11,6 +11,7 @@ const styles = theme => ({
         marginTop: '60px'
     },
     flightBlock: {
+        textAlign: 'center'
     }
 });
 

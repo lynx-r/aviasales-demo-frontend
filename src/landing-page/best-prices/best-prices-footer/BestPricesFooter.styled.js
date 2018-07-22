@@ -18,4 +18,5 @@ margin-top: 16px;
 color: #A0B0B9;
 font-size: 14px;
 line-height: 20px;
+text-align: center;
 `;

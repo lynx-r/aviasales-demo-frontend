@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Bottom, Contact, Contacts, Container, MobileLink, StyledLink} from './Footer.styled';
 import Grid from "@material-ui/core/Grid/Grid";
-import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
+import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
 import {FaFacebook, FaInstagram, FaTwitter, FaVk} from "react-icons/lib/fa/index";
 import FaViber from "./fa-viber/FaViber";
 

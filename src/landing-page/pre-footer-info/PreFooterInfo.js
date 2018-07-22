@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Container, InfoText, TitleInfo} from './PreFooterInfo.styled';
-import AirplaneIcon from "../components/icon/airplane-icon/AirplaneIcon";
+import AirplaneIcon from "../../components/icon/airplane-icon/AirplaneIcon";
 import Grid from "@material-ui/core/Grid/Grid";
-import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
-import AtEmailIcon from "../components/icon/at-email-icon/AtEmailIcon";
-import ListIcon from "../components/icon/list-icon/ListIcon";
+import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
+import AtEmailIcon from "../../components/icon/at-email-icon/AtEmailIcon";
+import ListIcon from "../../components/icon/list-icon/ListIcon";
 
 export default class PreFooterInfo extends Component {
 

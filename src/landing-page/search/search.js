@@ -14,6 +14,9 @@ import Select from "@material-ui/core/Select/Select";
 import orange from "@material-ui/core/colors/orange";
 
 const styles = theme => ({
+    container: {
+        textAlign: 'center'
+    },
     searchBox: {
         height: '100%'
     },

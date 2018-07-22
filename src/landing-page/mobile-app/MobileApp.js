@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import {Brands, Container, MobilePhone, MobileTitle, Rating, RatingDescription, RatingStars} from './MobileApp.styled';
-import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
+import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
 import Grid from "@material-ui/core/Grid/Grid";
-import StarIcon from "../components/icon/star-icon/StarIcon";
-import AppleBrand from "../components/brand/apple-brand/AppleBrand";
-import AndroidBrand from "../components/brand/android-brand/AndroidBrand";
-import WindowsBrand from "../components/brand/windows-brand/WindowsBrand";
+import StarIcon from "../../components/icon/star-icon/StarIcon";
+import AppleBrand from "../../components/brand/apple-brand/AppleBrand";
+import AndroidBrand from "../../components/brand/android-brand/AndroidBrand";
+import WindowsBrand from "../../components/brand/windows-brand/WindowsBrand";
 
 export default class MobileApp extends Component {
 

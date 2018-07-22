@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import {Container, Question, SubscribeInfo} from './DiscountSocial.styled';
 import Grid from "@material-ui/core/Grid/Grid";
-import FacebookIcon from "../../components/icon/facebook-icon/FacebookIcon";
-import TwitterIcon from "../../components/icon/twitter-icon/TwitterIcon";
-import VkIcon from "../../components/icon/vk-icon/VkIcon";
-import RssIcon from "../../components/icon/rss-icon/RssIcon";
+import FacebookIcon from "../../../components/icon/facebook-icon/FacebookIcon";
+import TwitterIcon from "../../../components/icon/twitter-icon/TwitterIcon";
+import VkIcon from "../../../components/icon/vk-icon/VkIcon";
+import RssIcon from "../../../components/icon/rss-icon/RssIcon";
 import Input from "@material-ui/core/Input/Input";
 import "./DiscountSocial.css"
 import Button from "@material-ui/core/Button/Button";

@@ -2,15 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import {withStyles} from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
-import Search from "./search";
-import FlightDirections from "./flight-directions/FlightDirections";
-import BestPrices from "./best-prices/BestPrices";
-import Companies from "./companies/Companies";
-import Discount from "./discount/Discount";
-import PreFooterInfo from "./pre-footer-info/PreFooterInfo";
-import MobileApp from "./mobile-app/MobileApp";
-import PreFooterAll from "./pre-footer-all/PreFooterAll";
-import Footer from "./footer/Footer";
+import Search from "./landing-page/search";
+import FlightDirections from "./landing-page/flight-directions/FlightDirections";
+import BestPrices from "./landing-page/best-prices/BestPrices";
+import Companies from "./landing-page/companies/Companies";
+import Discount from "./landing-page/discount/Discount";
+import PreFooterInfo from "./landing-page/pre-footer-info/PreFooterInfo";
+import MobileApp from "./landing-page/mobile-app/MobileApp";
+import PreFooterAll from "./landing-page/pre-footer-all/PreFooterAll";
+import Footer from "./landing-page/footer/Footer";
 
 const styles = theme => ({
     root: {

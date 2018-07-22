@@ -9,6 +9,7 @@ export const Title = styled.div`
 font-size: 32px;
 line-height: 40px;
 color: #5C5C5C;
+text-align: center;
 `;
 
 export const StubCompaniesRow = styled.div`
@@ -36,6 +37,7 @@ margin: 0 24px;
 
 export const Dots = styled.div`
 margin-top: 24px;
+text-align: center;
 `;
 
 export const Dot = styled.img`

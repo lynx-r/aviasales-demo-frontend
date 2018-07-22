@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Container} from './PreFooterAll.styled';
 import Column from "./column/Column";
 import Grid from "@material-ui/core/Grid/Grid";
-import ContainerCentrified from "../components/container-centrified/ContainerCentrified";
+import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
 
 export default class PreFooterAll extends Component {
 

@@ -1,15 +1,36 @@
 import React, {Component} from "react";
 import "./App.css";
-import Layout from "./layout";
+import LandingPage from "./landing-page/LandingPage";
+import SearchPage from "./search-page/SearchPage";
+import {Route} from "react-router-dom";
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Layout/>
-            </div>
+            <main>
+                <Route exact path="/" component={LandingPage}/>
+                <Route path="/search" component={SearchPage}/>
+            </main>
         );
     }
 }
 
-export default App;
+// import { Route, Link } from 'react-router-dom'
+// import Home from './home'
+// import About from './about'
+
+// const App = () => (
+//     <div>
+//         <header>
+//             <Link to="/">Home</Link>
+//             <Link to="/about-us">About</Link>
+//         </header>
+//
+//         <main>
+//             <Route exact path="/" component={Home} />
+//             <Route exact path="/about-us" component={About} />
+//         </main>
+//     </div>
+// );
+
+export default App
