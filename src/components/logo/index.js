@@ -2,9 +2,9 @@ import React from "react";
 import styled from 'styled-components';
 
 const StyledLogo = styled.div`
-    position: absolute;
-    top: 1%;
-    left: 6%;
+    //position: absolute;
+    //top: 1%;
+    //left: 6%;
 `;
 
 

@@ -1,0 +1,56 @@
+.container {
+    margin-top: 24px;
+}
+
+.textField {
+    background-color: white;
+}
+
+.bootstrapRoot {
+    width: calc(10% - 24px);
+    padding: 0;
+}
+
+.bootstrapInput {
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ced4da;
+    font-size: 16px;
+    padding: 10px 12px;
+    width: calc(14% - 14px);
+}
+
+.bootstrapInput:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.bootstrapSelect {
+    width: calc(20% - 34px);
+}
+
+.bootstrapFormLabel {
+    font-size: 18px,
+}
+
+.searchButton {
+    width: 256px;
+    background-color: #FF9241 !important;
+    border-radius: 4px !important;
+    margin-left: 20px;
+    margin-top: 0 !important;
+    height: 54px !important;
+    font-style: normal !important;
+    line-height: normal !important;
+    font-size: 20px !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+.searchButton:hover {
+    background-color: orange;
+}
+
+.airplane {
+    margin-left: 24px;
+}
