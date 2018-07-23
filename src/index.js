@@ -11,7 +11,7 @@ const target = document.querySelector('#root');
 
 render(
     <Provider store={store}>
-        <ConnectedRouter history={history}>
+        <ConnectedRouter history={history} basename="/aviasales-demo-frontend">
             <div>
                 <App/>
             </div>
