@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Container} from './SearchBar.styled';
 import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 import {Logo} from "../../components/logo";
 import Currency from "../../components/currency/Currency";
 import SearchForm from "../../components/search-form/SearchForm";

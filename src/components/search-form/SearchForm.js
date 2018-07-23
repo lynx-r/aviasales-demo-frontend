@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import {Container} from './SearchForm.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
-import Input from "@material-ui/core/es/Input/Input";
-import InputAdornment from "@material-ui/core/es/InputAdornment/InputAdornment";
-import IconButton from "@material-ui/core/es/IconButton/IconButton";
-import Select from "@material-ui/core/es/Select/Select";
-import MenuItem from "@material-ui/core/es/MenuItem/MenuItem";
-import Button from "@material-ui/core/es/Button/Button";
+import Grid from "@material-ui/core/Grid/Grid";
+import Input from "@material-ui/core/Input/Input";
+import InputAdornment from "@material-ui/core/InputAdornment/InputAdornment";
+import IconButton from "@material-ui/core/IconButton/IconButton";
+import Select from "@material-ui/core/Select/Select";
+import MenuItem from "@material-ui/core/MenuItem/MenuItem";
+import Button from "@material-ui/core/Button/Button";
 import {withRouter} from "react-router-dom";
 import "./SearchForm.css";
 
