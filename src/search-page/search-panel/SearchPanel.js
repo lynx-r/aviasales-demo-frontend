@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Container} from './SearchPanel.styled';
-import Grid from "@material-ui/core/es/Grid/Grid";
+import Grid from "@material-ui/core/Grid/Grid";
 import ContainerCentrified from "../../components/container-centrified/ContainerCentrified";
 import Filters from "./filters/Filters";
 import Tickets from "./tickets/Tickets";
